@@ -1,0 +1,41 @@
+body {
+    margin: none;
+    background-color: rgb(128, 141, 124);
+}
+
+p {
+    font-weight: 800;
+    font-size: 18px;
+    font-family: Verdana;
+    color: rgb(23, 59, 69);
+}
+.images-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-body {
+    margin-top: 250px;
+}
+
+.box {
+    display: inline-block;
+    object-fit: contain;
+    object-position: center;
+    margin-left: 15px;
+    max-height: 90%;
+    border-radius: 5%;
+    border: 5px solid rgb(156, 169, 134);
+}
+
+.img {
+    width: 200px;
+    border-radius: 5%;
+}
+
+.message-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
